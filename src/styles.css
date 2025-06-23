@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+.app-container {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid #000000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  padding: 10px;
+}
+
+.site-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main {
+  margin: 0 10px;
+}
